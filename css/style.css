@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* ボディ */
+body{
+    width: 100%;
+    text-align: center;
+    font-family: serif;
+}
+/* ヘッダー */
+header{
+    padding: 50px;
+    background-color: black;
+}
+h1{
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    line-height: 50px;
+}
+/* メニュー */
+.menu__p{
+    padding: 75px;
+    background-color: #99CC00;
+}
+.menu__f{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-bottom: 50px;
+}
+.menu__t{
+    writing-mode: vertical-lr;
+    font-size: 28px;
+    line-height: 60px;
+    font-weight: bold;
+}
+.menu__ar{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+/* フッター */
+footer{
+    background-color: black;
+    padding: 50px;
+}
